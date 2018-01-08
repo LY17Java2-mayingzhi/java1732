@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>六人行</title>
+    <style type="text/css">
+        body{
+            margin:0 auto;
+            padding:0;
+        }
+        #head{
+            width:700px;
+            height:100px;
+            margin:0 auto;
+        }
+        li{
+            list-style:none;
+            float:left;
+            margin-left:20px;
+        }
+        #logo{
+            background:url(images/logo.gif);
+            width:170px;
+            height:65px;
+            float:left;
+            margin-top:10px;
+            line-height:100px;
+        }
+        a{
+            text-decoration:none;
+            font-weight:bold;
+            color:#999;
+        }
+        #in{
+            padding:21px 185px;
+        }
+        .input{
+            height:41px;
+            background-color:#09F;
+            color:#FFF;
+            border:0px none;
+            padding-left:15px;
+            font-weight:bold;
+        }
+        #in_b{
+            background:url(images/icon.gif) no-repeat 0px 5px;
+            border:#0CF 3px solid;
+            width:465px;
+            height:36px;
+            float:left;
+        }
+        #in_b input{
+            width:430px;
+            height:34px;
+            margin-left:30px;
+            border:0px none;
+        }
+    </style>
+</head>
+
+<body>
+<div id="head">
+    <div id="logo"></div>
+    <div id="navmenu">
+        <div id="nav">
+            <ul>
+                <li><a href="#">首页&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">活动&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">据点&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">招贴&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">vip服务&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">随便逛逛</a></li>
+            </ul>
+        </div>
+        <div id="in">
+            <table>
+                <tr>
+                    <td>
+                        <div id="in_b"><input type="text"></div>
+                    </td>
+                    <td><input type="button" value="找找!" class="input"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
